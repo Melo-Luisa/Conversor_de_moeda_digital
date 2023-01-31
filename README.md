@@ -3,7 +3,7 @@
 <li>Criação de um conversor de moedas digitais</li>
 <li> Linguagens: HTML, CSS e JavaScript</li>
 
-<a href='https://melo-luisa.github.io/Conversor_de_moedas/'>🌐 Link WEB</a> | <a href='https://github.com/Melo-Luisa/Conversor_moeda_digital'> 📃 Link repositório</a>
+<a href='https://melo-luisa.github.io/Conversor_moeda_digital/'>🌐 Link WEB</a> | <a href='https://github.com/Melo-Luisa/Conversor_moeda_digital'> 📃 Link repositório</a>
 <h3>Situação:</h3>
 <li>Completo</li>
 
