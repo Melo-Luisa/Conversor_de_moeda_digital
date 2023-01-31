@@ -1,56 +1,44 @@
-body {
+@media screen and (max-width: 768px) {
+  body{
     font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-image: url("../img/background-bitcoin.jpg");
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color:#ffffff;
+      text-align: center;
+      background-image: url("../img/background-bitcoin.jpg");
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color:#ffffff;
   }
-  
-  .container {
+  .container_pai{
+    background-color: rgba(0, 0, 0, .5);
+    margin: 10px auto;
+    border-radius: 1rem;
+  }
+  .container{
     text-align: center;
-    padding-top: 7rem;
-    margin-left: 55rem;
+    padding-top: 2rem;
+    margin-right: 2rem;
   }
   .container-2{
     text-align: center;
-    margin-left: 55rem;
-    margin-top: 5rem;
-  }
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  body > img {
-    margin: 0 10px;
-  }
-  
-  img {
-    max-height: 250px;
   }
 
-
-#valores{
+  #converter{
+    border: none;
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(216, 170, 43);
+    color: #eee;
+    font-family: "Roboto Mono", monospace;
+  }
+  #converter:hover{
+    color: #050505;
+    cursor: pointer;
+    background-color: #eee;
+    transition: 1s;
+  }
+  #valores{
     border: none;
     border-radius: 0.5rem;
     text-align: center;
@@ -58,18 +46,82 @@ body {
     width: 12rem;
     height: 2rem;
 }
-#converter{
-  border: none;
-  border-radius: 0.5rem;
-  width: 6rem;
-  height: 2rem;
-  background-color: rgb(27, 34, 151);
-  color: #eee;
-  font-family: "Roboto Mono", monospace;
 }
-#converter:hover{
-  color: #050505;
-  cursor: pointer;
-  background-color: #eee;
-  transition: 1s;
+
+@media screen and (min-width: 1024px) {
+    body {
+      font-family: "Roboto Mono", monospace;
+      text-align: center;
+      background-image: url("../img/background-bitcoin.jpg");
+      background-color: #000000;
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color:#ffffff;
+    }
+    
+  .container {
+    text-align: center;
+    padding-top: 7rem;
+    margin-left: 55rem;
+  }
+    .container-2{
+      text-align: center;
+      margin-left: 55rem;
+      margin-top: 5rem;
+    }
+    .page-title {
+      color: #ffffff;
+      margin: 0 0 5px;
+    }
+    
+    .page-subtitle {
+      color: #ffffff;
+      margin-top: 5px;
+    }
+    
+    .page-logo {
+      width: 200px;
+    }
+    
+    .alura-logo {
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    body > img {
+      margin: 0 10px;
+    }
+    
+    img {
+      max-height: 250px;
+    }
+
+
+  #valores{
+      border: none;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-left: 2rem;
+      width: 12rem;
+      height: 2rem;
+  }
+  #converter{
+    border: none;
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(216, 170, 43);
+    color: #eee;
+    font-family: "Roboto Mono", monospace;
+  }
+  #converter:hover{
+    color: #050505;
+    cursor: pointer;
+    background-color: #eee;
+    transition: 1s;
+  }
 }
